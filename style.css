@@ -3,13 +3,25 @@ body{
     background-size: cover;
     
 }
+
+a{
+    text-decoration: none;
+}
+
 h1{
-    color: antiquewhite;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: #000000 underline;
+    background-color: #ffffff;
 }
+
 h3{
-    color: antiquewhite;
-    width: 70px;
+    color:  #000000;
+    text-align: center;
+    font-weight: normal;
 }
+
 #services{
     align-content: center;
     width: 180px;
@@ -17,8 +29,19 @@ h3{
     padding: 10px;
     border: 5px solid grey;
     margin: 0;
-    
 }
+
 li{
-    color: antiquewhite;
+    color: #000000;
+}
+
+p{
+   text-align: center;
+   line-height: 2;
+   background-color: aquamarine;
+}
+
+div{
+    text-align: center;
+   background-color: #ffffff;
 }
