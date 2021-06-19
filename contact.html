@@ -12,7 +12,83 @@
     <nav>
     </nav>
     <main>
-        <h2>Contact Duke Designs</h2>
+        <h1>Contact Duke Designs</h1>
+        <form action="/inquiry/">
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="firstname" required>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="lastname" required>
+            <div>
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" placeholder="Type NA if Not Applicable" required>
+            </div>
+            </p>
+            <p>
+                Service Inquiring About:
+            </p>
+            <p>
+                <input type="radio" name="service" id="web" value="web">
+                <label for="web">Website Development & Maintenance</label>
+            <div>
+                <label for="subgroups">Select:</label>
+                <select name="subgroups" id="subgroups" required>
+                    <option value="development">Development</option>
+                    <option value="maintenance">Maintenance</option>
+                    <option value="troubleshooting">Troubleshooting</option>
+                    <option value="setup">Setup/Install</option>
+                </select>
+            </div>
+            <div>
+                Additonal Comments:
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+            </p>
+            <p>
+                <input type="radio" name="service" id="app" value="app">
+                <label for="app">App Development & Maintenance</label>
+            <div>
+                <label for="subgroups">Select:</label>
+                <select name="subgroups" id="subgroups" required>
+                    <option value="development">Development</option>
+                    <option value="maintenance">Maintenance</option>
+                    <option value="troubleshooting">Troubleshooting</option>
+                    <option value="setup">Setup/Install</option>
+                </select>
+            </div>
+            <div>
+                Additonal Comments:
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+            </p>
+            <p>
+                <input type="radio" name="service" id="server" value="server">
+                <label for="server">Server Setup & Maintenance</label>
+            <div>
+                <label for="subgroups">Select:</label>
+                <select name="subgroups" id="subgroups" required>
+                    <option value="maintenance">Maintenance</option>
+                    <option value="troubleshooting">Troubleshooting</option>
+                    <option value="setup">Setup/Install</option>
+                </select>
+            </div>
+            <div>
+                Additonal Comments:
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <button>Sumbit</button>
+        </form>
 
         <li><a href="/Users/Admin/Desktop/Duke Designs/HTML/index.html">Home Page</a></li>
     </main>
