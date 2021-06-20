@@ -13,7 +13,11 @@ a:hover {
     text-decoration: underline;
 }
 
-h1{
+button:hover {
+    background-color: aquamarine;
+}
+
+h1, h4 {
     color: #1d3557;
     text-align: center;
     font-weight: bold;
@@ -21,14 +25,13 @@ h1{
     background-color: #a8dadc;
 }
 
-h3{
-    color:  #1d3557;
-    text-align: center;
-    font-weight: normal;
+ul {
+    list-style-position: inside;
 }
 
 li{
     color: #1d3557;
+    align-self: center;
 }
 
 p{
@@ -40,4 +43,8 @@ p{
 div{
     text-align: center;
    background-color: #a8dadc;
+}
+
+nav {
+    text-align: center;
 }
