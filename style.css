@@ -6,33 +6,29 @@ body{
 
 a{
     text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1{
-    color: #000000;
+    color: #1d3557;
     text-align: center;
     font-weight: bold;
     text-decoration: #000000 underline;
-    background-color: #ffffff;
+    background-color: #a8dadc;
 }
 
 h3{
-    color:  #000000;
+    color:  #1d3557;
     text-align: center;
     font-weight: normal;
 }
 
-#services{
-    align-content: center;
-    width: 180px;
-    height: 90px;
-    padding: 10px;
-    border: 5px solid grey;
-    margin: 0;
-}
-
 li{
-    color: #000000;
+    color: #1d3557;
 }
 
 p{
@@ -43,5 +39,5 @@ p{
 
 div{
     text-align: center;
-   background-color: #ffffff;
+   background-color: #a8dadc;
 }
