@@ -1,7 +1,10 @@
 body{
     background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
     background-size: cover;
-    
+}
+
+nav {
+    text-align: center;
 }
 
 a{
@@ -17,7 +20,7 @@ button:hover {
     background-color: aquamarine;
 }
 
-h1, h4 {
+h1, h2, h3{
     color: #1d3557;
     text-align: center;
     font-weight: bold;
@@ -25,26 +28,45 @@ h1, h4 {
     background-color: #a8dadc;
 }
 
-ul {
-    list-style-position: inside;
+h6{
+    text-align: end;
 }
 
-li{
+.about{
     color: #1d3557;
-    align-self: center;
-}
-
-p{
-   text-align: center;
-   line-height: 2;
-   background-color: aquamarine;
-}
-
-div{
     text-align: center;
-   background-color: #a8dadc;
+    background-color: #a8dadc;
+    line-height: 2;
 }
 
-nav {
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#server{
     text-align: center;
+    background-color: #a8dadc;
+}
+
+#web{
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+#app{
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+#home{
+    text-align: center;
+    background-color: #a8dadc;
+}
+
+footer{
+    background-color: #457b9d;
+    text-align: end;
+    line-height: 1;
 }
