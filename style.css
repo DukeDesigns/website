@@ -4,7 +4,9 @@ body{
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -45,19 +47,29 @@ h6{
     align-items: center;
 }
 
-#server{
+.server{
     text-align: center;
     background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#web{
+.web{
     text-align: center;
     background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#app{
+.app{
     text-align: center;
     background-color: #a8dadc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #home{
