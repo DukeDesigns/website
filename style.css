@@ -7,6 +7,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #a8dadc;
+    height: 20px;
 }
 
 a{
@@ -18,8 +20,22 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    border-radius: 10px;
+    background-color: #a8dadc;
+    margin: 2px;
+}
+
 button:hover {
     background-color: aquamarine;
+    border-radius: 10px;
+}
+
+h1 {
+    width: fit-content;
+    padding: 10px;
+    background-color: #a8dadc;
+    margin: 25px;
 }
 
 h1, h2, h3{
@@ -27,7 +43,6 @@ h1, h2, h3{
     text-align: center;
     font-weight: bold;
     text-decoration: #000000 underline;
-    background-color: #a8dadc;
 }
 
 h6{
@@ -51,9 +66,11 @@ h6{
     text-align: center;
     background-color: #a8dadc;
     display: flex;
-    justify-content: center;
     align-items: center;
-
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
 }
 
 .web{
@@ -62,6 +79,10 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
 }
 
 .app{
@@ -70,6 +91,10 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
 }
 
 #home{
