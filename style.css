@@ -1,6 +1,5 @@
 body{
-    background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
-    background-size: cover;
+    background-color: white;
 }
 
 nav {
@@ -56,26 +55,28 @@ h6{
     line-height: 2;
 }
 
-.services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .server{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
+    width: fit-content;
+=======
     display: flex;
     align-items: center;
     border: 5px solid  #1d3557;
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
 .web{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
+    width: fit-content;
+=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,11 +84,15 @@ h6{
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
 .app{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
+    width: fit-content;
+=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +100,7 @@ h6{
     border-radius: 10px;
     padding: 2px;
     margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
 #home{
