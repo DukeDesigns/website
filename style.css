@@ -3,7 +3,11 @@ body{
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8dadc;
+    height: 20px;
 }
 
 a{
@@ -15,8 +19,22 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    border-radius: 10px;
+    background-color: #a8dadc;
+    margin: 2px;
+}
+
 button:hover {
     background-color: aquamarine;
+    border-radius: 10px;
+}
+
+h1 {
+    width: fit-content;
+    padding: 10px;
+    background-color: #a8dadc;
+    margin: 25px;
 }
 
 h1, h2, h3{
@@ -24,7 +42,6 @@ h1, h2, h3{
     text-align: center;
     font-weight: bold;
     text-decoration: #000000 underline;
-    background-color: #a8dadc;
 }
 
 h6{
@@ -39,22 +56,51 @@ h6{
 }
 
 
-#server{
+.server{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
     width: fit-content;
+=======
+    display: flex;
+    align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
-#web{
+.web{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
     width: fit-content;
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
-#app{
+.app{
     text-align: center;
     background-color: #a8dadc;
+<<<<<<< HEAD
     width: fit-content;
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+>>>>>>> 5c70e6b065ce0d2ac6a170e527dcece83e8ce540
 }
 
 #home{
