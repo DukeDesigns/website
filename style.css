@@ -1,6 +1,5 @@
 body{
-    background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
-    background-size: cover;
+    background-color: white;
 }
 
 nav {
@@ -39,25 +38,23 @@ h6{
     line-height: 2;
 }
 
-.services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #server{
     text-align: center;
     background-color: #a8dadc;
+    width: fit-content;
 }
 
 #web{
     text-align: center;
     background-color: #a8dadc;
+    width: fit-content;
 }
 
 #app{
     text-align: center;
     background-color: #a8dadc;
+    width: fit-content;
 }
 
 #home{
