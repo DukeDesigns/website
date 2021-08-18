@@ -6,8 +6,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #a8dadc;
     height: 20px;
+    position: fixed;
+    left: 50%;
 }
 
 a{
@@ -55,19 +56,6 @@ h6{
     line-height: 2;
 }
 
-
-.server{
-    text-align: center;
-    background-color: #a8dadc;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    border: 5px solid  #1d3557;
-    border-radius: 10px;
-    padding: 2px;
-    margin: 5px;
-}
-
 .web{
     text-align: center;
     background-color: #a8dadc;
@@ -94,9 +82,37 @@ h6{
     margin: 5px;
 }
 
+.server{
+    text-align: center;
+    background-color: #a8dadc;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border: 5px solid  #1d3557;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+}
+
 #home{
     text-align: center;
     background-color: #a8dadc;
+}
+
+nav #about{
+    position: relative;
+    right: 100%;
+}
+
+nav #contact{
+    position: relative;
+    left: 15%;
+}
+
+#name {
+    position: fixed;
+    top: 5%;
+    left: 40%;
 }
 
 footer{
